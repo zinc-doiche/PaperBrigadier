@@ -1,14 +1,14 @@
-package com.zinc.kpoker.lib.brigadier;
+package com.devport.brigadier;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import com.zinc.kpoker.lib.brigadier.argument.LiteralArgument;
-import com.zinc.kpoker.lib.brigadier.argument.PlayerArgument;
-import com.zinc.kpoker.lib.brigadier.argument.UUIDArgument;
-import com.zinc.kpoker.lib.brigadier.argument.primitive.FloatArgument;
-import com.zinc.kpoker.lib.brigadier.argument.primitive.IntArgument;
-import com.zinc.kpoker.lib.brigadier.argument.primitive.StringArgument;
+import com.devport.brigadier.argument.LiteralArgument;
+import com.devport.brigadier.argument.PlayerArgument;
+import com.devport.brigadier.argument.UUIDArgument;
+import com.devport.brigadier.argument.primitive.FloatArgument;
+import com.devport.brigadier.argument.primitive.IntArgument;
+import com.devport.brigadier.argument.primitive.StringArgument;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.server.MinecraftServer;

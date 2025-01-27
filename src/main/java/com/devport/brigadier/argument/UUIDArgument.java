@@ -1,4 +1,4 @@
-package com.zinc.kpoker.lib.brigadier.argument;
+package com.devport.brigadier.argument;
 
 import com.mojang.brigadier.builder.RequiredArgumentBuilder;
 import net.minecraft.commands.CommandSourceStack;

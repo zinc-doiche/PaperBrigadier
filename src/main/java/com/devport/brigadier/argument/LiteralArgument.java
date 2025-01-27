@@ -1,10 +1,10 @@
-package com.zinc.kpoker.lib.brigadier.argument;
+package com.devport.brigadier.argument;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.builder.RequiredArgumentBuilder;
-import com.zinc.kpoker.lib.brigadier.CommandBuilder;
-import com.zinc.kpoker.lib.brigadier.command.BiCommand;
-import com.zinc.kpoker.lib.brigadier.command.PlayerCommand;
+import com.devport.brigadier.CommandBuilder;
+import com.devport.brigadier.command.BiCommand;
+import com.devport.brigadier.command.PlayerCommand;
 import net.minecraft.commands.CommandSourceStack;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

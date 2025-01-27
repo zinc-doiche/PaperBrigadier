@@ -1,8 +1,8 @@
-package com.zinc.kpoker.lib.brigadier.argument.primitive;
+package com.devport.brigadier.argument.primitive;
 
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.builder.RequiredArgumentBuilder;
-import com.zinc.kpoker.lib.brigadier.argument.RequiredArgument;
+import com.devport.brigadier.argument.RequiredArgument;
 import net.minecraft.commands.CommandSourceStack;
 
 public class IntArgument extends RequiredArgument<Integer> {

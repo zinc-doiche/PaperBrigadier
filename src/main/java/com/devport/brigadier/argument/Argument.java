@@ -1,7 +1,7 @@
-package com.zinc.kpoker.lib.brigadier.argument;
+package com.devport.brigadier.argument;
 
 import com.mojang.brigadier.builder.ArgumentBuilder;
-import com.zinc.kpoker.lib.brigadier.CommandNode;
+import com.devport.brigadier.CommandNode;
 import net.minecraft.commands.CommandSourceStack;
 
 public interface Argument<T extends ArgumentBuilder<CommandSourceStack, T>> extends CommandNode<T> {

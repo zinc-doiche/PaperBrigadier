@@ -1,4 +1,4 @@
-package com.zinc.kpoker.lib.brigadier;
+package com.devport.brigadier;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
