@@ -25,10 +25,20 @@ java {
 //    withJavadocJar()
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("mavenJava") {
-            from(components["java"])
+afterEvaluate {
+    publishing {
+        publications {
+            register<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.zinc-doiche"
+                artifactId = "PaperBrigadier"
+                version = "1.0"
+
+                pom {
+                    name.set("name")
+                    description.set("description")
+                }
+            }
         }
     }
 }
