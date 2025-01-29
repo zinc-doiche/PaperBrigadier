@@ -29,7 +29,7 @@ afterEvaluate {
     publishing {
         publications {
             register<MavenPublication>("release") {
-                from(components["release"])
+                from(components["java"])
                 groupId = "com.github.zinc-doiche"
                 artifactId = "PaperBrigadier"
                 version = "1.0"
